@@ -1,0 +1,264 @@
+
+*{
+    margin: 0;
+}
+
+
+.dot{
+    padding-top: 10px;
+}
+
+.options ul li:last-of-type{
+    position: relative;
+}
+
+.options ul li img{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 16px;
+}
+.container1{
+    display: flex;
+}
+
+.banner{
+    margin-top: 70px;
+    padding-top: 80px;
+    margin-right: 20px;
+    padding-left: 140px;
+}
+.banner1{
+    background-color: #E5D8FF;
+    height: 400px;
+    margin-top: 150px;
+    width: 980px;
+    border-radius: 14px;
+    margin-left: 5px;
+}
+
+.text1{
+    padding-top: 20px;
+    padding-left: 40px;
+    
+}
+
+.texts{
+
+font: DM Sans;
+font-size: 25px;
+line-height: 51.82px;
+color: #6F7373;
+}
+.banner3{
+    
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    margin-top:28vh;
+    margin-left: 200px;
+    
+}
+.img1{
+    border-radius: 8px;
+    border: 4px solid black;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.img2{
+    
+   
+    border: 4px solid black;
+    padding: 4px 4px;
+    border-radius: 8px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.img3{
+    
+    padding: 4px 4px;
+    border: 4px solid black;
+    border-radius: 8px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.firstbox{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 50px;
+    
+}
+.box1{
+    height: 100px;
+    width: 160px;
+    background-color: #929DFF;
+    color: white;
+    border-radius: 11px;
+    line-height: 45px;
+    padding-left: 10px;
+}
+.box2{
+    height: 100px;
+    width: 160px;
+    background-color: #734CF2;
+    color: white;
+    border-radius: 11px;
+    line-height: 45px;
+    padding-left: 10px;
+}
+.box3{
+    background-color:#D288FF;
+    color: white;
+    height: 100px;
+    width: 160px;
+    border-radius: 11px;
+    line-height: 45px;
+    padding-left: 10px;
+}
+.box4{
+    background-color: #000000;
+    color: white;
+    height: 100px;
+    width: 160px;
+    border-radius: 11px;
+    text-align: justify;
+    line-height: 35px;
+    padding-left: 10px;
+}
+.imgs{
+   padding-left: 100px;
+   padding-top: 5px;
+   
+}
+.container{
+    display: flex;
+    background-color: #483EFF;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    border-radius: 21px;
+    height: 60vh;
+    margin-bottom: 10vh;
+    margin-top: 80px;
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.left-container button{
+    padding: 15px 35px;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 12px;
+    color: white;
+    font-weight: 700;
+    border-style: solid;
+    
+}
+
+.left-container button:first-of-type{
+   background: #BCE0F6;
+   color: black;
+  
+   font-weight: bold;
+}
+
+
+.right-container{
+    box-sizing: border-box;
+    width: 70%;
+    height: 90%;
+    background-color: white;
+    margin: 2% 0 2% 0;
+    border-radius: 20px;
+    padding: 20px 30px;
+    position: relative;
+}
+.info-heading{
+   font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    letter-spacing: 0.105em;
+}
+.infos{
+    padding-bottom: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.next-button img{
+    width: 20px;
+    margin-left: 7px;
+}
+.next-button{
+    background-color: #000000;
+    color: white;
+display: flex;
+margin-top: 40px;
+height: 40px;
+width: 70px;
+align-items:center ;
+margin-left: 700px;
+}
+
+.navbar{
+    display: flex;
+    background-color: #6F6AF7;
+    margin: auto;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    position:fixed;
+    top: 0px;
+    width: 100vw;
+}
+.logo{
+    font-family: 'Delius Unicase', cursive;
+    font-size: 32px;
+}
+.humburger img{
+    height: 25px;
+}
+
+.options ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.options ul li{
+    margin-right: 15px;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 0px;
+}
+
+.options ul li select{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.options ul li input{
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: none;
+}
+.logo{
+    font-family: 'Delius Unicase', cursive;
+    font-size: 32px;
+}
